@@ -1,0 +1,32 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore data files
+data/
+embeddings_database.npy
+embeddings_database_new.npy
+
+# Ignore sensitive or environment-specific information
+.env
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore any local configuration specific to your machine or environment
+config.local
+
+# Ignore user-specific files
+*.log
+
+# Ignore any files related to temporary testing or debugging
+*.tmp
+*.bak
+*.swp
